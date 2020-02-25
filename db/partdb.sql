@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Gegenereerd op: 01 feb 2020 om 23:07
+-- Gegenereerd op: 25 feb 2020 om 20:45
 -- Serverversie: 5.7.29-0ubuntu0.18.04.1
--- PHP-versie: 7.2.24-0ubuntu0.18.04.2
+-- PHP-versie: 7.2.24-0ubuntu0.18.04.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -77,7 +77,33 @@ INSERT INTO `attachements` (`id`, `name`, `class_name`, `element_id`, `type_id`,
 (34, 'LM386N', 'PartDB\\Part', 210, 1, 'https://sigma.octopart.com/18161733/image/National-Semiconductor-LM386N-1-NOPB.jpg', 1, '2020-02-01 21:20:52'),
 (35, 'LM358P', 'PartDB\\Part', 31, 1, 'https://sigma.octopart.com/18161733/image/National-Semiconductor-LM386N-1-NOPB.jpg', 1, '2020-02-01 21:21:50'),
 (36, 'LM324N', 'PartDB\\Part', 113, 1, 'https://sigma.octopart.com/21819722/image/Texas-Instruments-LM324N.jpg', 1, '2020-02-01 21:23:26'),
-(37, 'HA17324', 'PartDB\\Part', 209, 1, 'https://sigma.octopart.com/18981601/image/Hitachi-HA17324.jpg', 1, '2020-02-01 21:26:20');
+(37, 'HA17324', 'PartDB\\Part', 209, 1, 'https://sigma.octopart.com/18981601/image/Hitachi-HA17324.jpg', 1, '2020-02-01 21:26:20'),
+(38, 'diode1', 'PartDB\\Part', 255, 1, 'https://sigma.octopart.com/78391713/image/Vishay-1N4003-E3-54.jpg', 1, '2020-02-14 17:21:36'),
+(39, 'diode1', 'PartDB\\Part', 44, 1, 'https://sigma.octopart.com/45210118/image/Fairchild-Semiconductor-1N4148.jpg', 1, '2020-02-14 17:27:08'),
+(40, 'diode1', 'PartDB\\Part', 234, 1, 'https://sigma.octopart.com/125002522/image/Solid-State-Manufacturing-1N5810.jpg', 1, '2020-02-14 17:30:18'),
+(41, 'th2', 'PartDB\\Part', 241, 1, 'https://sigma.octopart.com/78391941/image/WeEn-Semiconductors-BT152-600R%2C127.jpg', 1, '2020-02-14 17:34:13'),
+(42, 'tran1', 'PartDB\\Part', 221, 1, 'https://sigma.octopart.com/86694636/image/ON-Semiconductor-2N3904TF.jpg', 1, '2020-02-14 17:40:58'),
+(43, 'tran1', 'PartDB\\Part', 222, 1, 'https://sigma.octopart.com/86682224/image/ON-Semiconductor-2N3906BU.jpg', 1, '2020-02-14 17:42:03'),
+(44, 'fet', 'PartDB\\Part', 132, 1, 'https://sigma.octopart.com/86689988/image/ON-Semiconductor-2N7000-D26Z.jpg', 1, '2020-02-14 17:43:30'),
+(45, 'trn', 'PartDB\\Part', 233, 1, 'https://sigma.octopart.com/78391980/image/ON-Semiconductor-KSB772YSTU.jpg', 1, '2020-02-14 17:47:00'),
+(46, 'tran1', 'PartDB\\Part', 226, 1, 'https://sigma.octopart.com/50478416/image/Fairchild-Semiconductor-KSC1815YTA.jpg', 1, '2020-02-14 17:48:52'),
+(47, 'tran1', 'PartDB\\Part', 223, 1, 'https://sigma.octopart.com/45523776/image/Fairchild-Semiconductor-SS8050DTA..jpg', 1, '2020-02-14 17:57:25'),
+(48, 'tran1', 'PartDB\\Part', 224, 1, 'https://sigma.octopart.com/136861645/image/Fairchild-Semiconductor-SS8550DTA.jpg', 1, '2020-02-14 17:58:50'),
+(49, 'tran1', 'PartDB\\Part', 236, 1, 'https://sigma.octopart.com/78391898/image/ON-Semiconductor-TIP120G.jpg', 1, '2020-02-14 18:02:18'),
+(50, 'tran1', 'PartDB\\Part', 231, 1, 'https://sigma.octopart.com/86688332/image/ON-Semiconductor-TIP122TU..jpg', 1, '2020-02-14 18:04:12'),
+(51, 'tran1', 'PartDB\\Part', 217, 1, 'https://sigma.octopart.com/82501252/image/ON-Semiconductor-BC33716TA.jpg', 1, '2020-02-14 18:05:39'),
+(52, 'tran1', 'PartDB\\Part', 218, 1, 'https://sigma.octopart.com/79959656/image/Motorola-BC327-25.jpg', 1, '2020-02-14 18:06:49'),
+(53, 'tran1', 'PartDB\\Part', 219, 1, 'https://sigma.octopart.com/79959656/image/Motorola-BC327-25.jpg', 1, '2020-02-14 18:07:25'),
+(54, 'tran1', 'PartDB\\Part', 220, 1, 'https://sigma.octopart.com/17933342/image/Multicomp-2N2907.jpg', 1, '2020-02-14 18:08:12'),
+(55, 'bre', 'PartDB\\Part', 129, 1, 'https://sigma.octopart.com/137902904/image/mikroElektronika-MIKROE-1098.jpg', 1, '2020-02-14 18:09:20'),
+(56, 'bre', 'PartDB\\Part', 128, 1, 'https://sigma.octopart.com/137902901/image/mikroElektronika-MIKROE-1097.jpg', 1, '2020-02-14 18:10:32'),
+(57, 'lora', 'PartDB\\Part', 109, 1, 'https://sigma.octopart.com/134690992/image/Adafruit-Industries-3073.jpg', 1, '2020-02-14 18:11:35'),
+(58, 'bl1', 'PartDB\\Part', 108, 1, 'https://i.pinimg.com/564x/1d/c0/e5/1dc0e5ceb3ccaa3ec9d09c4bff7f142b.jpg', 1, '2020-02-14 18:13:31'),
+(59, 'bat1', 'PartDB\\Part', 16, 1, 'https://www.luchtbuks.net/uploads/monthly_02_2017/post-21194-1486817545,58_thumb.jpg', 1, '2020-02-14 18:14:57'),
+(63, 'ba', 'PartDB\\Part', 90, 1, 'https://i.ebayimg.com/images/g/gLEAAOSwdHlc4F-D/s-l500.jpg', 1, '2020-02-14 18:21:01'),
+(64, 'tran1', 'PartDB\\Part', 256, 1, 'https://sigma.octopart.com/86682224/image/ON-Semiconductor-2N3906BU.jpg', 1, '2020-02-18 20:15:40'),
+(65, 'tran1', 'PartDB\\Part', 257, 1, 'https://sigma.octopart.com/21511021/image/STMicroelectronics-TIP41C.jpg', 1, '2020-02-25 19:33:17'),
+(66, 'tran1', 'PartDB\\Part', 258, 1, 'https://sigma.octopart.com/79902656/image/STMicroelectronics-2SD882.jpg', 1, '2020-02-25 19:39:05');
 
 -- --------------------------------------------------------
 
@@ -232,7 +258,11 @@ INSERT INTO `categories` (`id`, `name`, `parent_id`, `disable_footprints`, `disa
 (102, 'Headers', NULL, 0, 0, 0, 0, '', '', '', '', 'aansluitingen', '2019-04-26 14:27:43', '2019-04-26 14:27:43'),
 (103, 'Breakout board', NULL, 0, 0, 0, 0, '', '', '', '', 'sensoren en dingen op printplaat', '2019-08-14 18:38:51', '2019-08-14 18:38:51'),
 (104, 'Motoraansturing', 103, 0, 0, 0, 0, '', '', '', '', '', '2019-09-19 08:01:41', '2019-09-19 08:01:52'),
-(105, 'I2C bord', 40, 0, 0, 0, 0, '', '', '', '', 'I2C zoals pca9685', '2019-10-08 20:58:35', '2019-10-08 20:58:36');
+(105, 'I2C bord', 40, 0, 0, 0, 0, '', '', '', '', 'I2C zoals pca9685', '2019-10-08 20:58:35', '2019-10-08 20:58:36'),
+(106, 'NPN transistor', 3, 0, 0, 0, 0, '', '', '', '', '', '2020-02-18 20:21:17', '2020-02-18 20:21:17'),
+(107, 'PNP transistor', 3, 0, 0, 0, 0, '', '', '', '', '', '2020-02-18 20:21:26', '2020-02-18 20:21:26'),
+(108, 'N-channel', 2, 0, 0, 0, 0, '', '', '', '', '', '2020-02-18 20:21:45', '2020-02-18 20:21:45'),
+(109, 'P-channel', 2, 0, 0, 0, 0, '', '', '', '', '', '2020-02-18 20:21:49', '2020-02-18 20:21:49');
 
 -- --------------------------------------------------------
 
@@ -356,7 +386,8 @@ CREATE TABLE `footprints` (
 --
 
 INSERT INTO `footprints` (`id`, `name`, `filename`, `filename_3d`, `parent_id`, `comment`, `datetime_added`, `last_modified`) VALUES
-(1, '328p', '', '', NULL, '', '2019-04-12 21:26:41', '2019-04-12 21:26:41');
+(1, '328p', '', '', NULL, '', '2019-04-12 21:26:41', '2019-04-12 21:26:41'),
+(2, 'TO-92', '', '', NULL, '', '2020-02-14 18:01:09', '2020-02-14 18:01:09');
 
 -- --------------------------------------------------------
 
@@ -1631,7 +1662,165 @@ INSERT INTO `log` (`id`, `datetime`, `id_user`, `level`, `type`, `target_id`, `t
 (1179, '2020-02-01 21:26:20', 4, 6, 6, 37, 2, '[]'),
 (1180, '2020-02-01 21:26:20', 4, 6, 7, 209, 10, '{\"m\":null}'),
 (1181, '2020-02-01 21:28:14', 4, 6, 7, 114, 10, '{\"m\":\"\"}'),
-(1182, '2020-02-01 21:28:14', 4, 6, 7, 114, 10, '{\"m\":\"\"}');
+(1182, '2020-02-01 21:28:14', 4, 6, 7, 114, 10, '{\"m\":\"\"}'),
+(1183, '2020-02-14 17:19:35', 4, 6, 1, 4, 1, '{\"i\":\"62.59.57.0\"}'),
+(1184, '2020-02-14 17:20:03', 4, 6, 6, 255, 10, '{\"i\":\"0\"}'),
+(1185, '2020-02-14 17:21:06', 4, 6, 7, 255, 10, '{\"m\":null}'),
+(1186, '2020-02-14 17:21:06', 4, 6, 9, 255, 10, '{\"o\":0,\"n\":50,\"c\":\"Part edited\",\"p\":0}'),
+(1187, '2020-02-14 17:21:06', 4, 6, 7, 255, 10, '{\"m\":null}'),
+(1188, '2020-02-14 17:21:06', 4, 6, 9, 255, 10, '{\"o\":0,\"n\":50,\"c\":\"Part edited\",\"p\":0}'),
+(1189, '2020-02-14 17:21:06', 4, 6, 7, 255, 10, '{\"m\":\"\"}'),
+(1190, '2020-02-14 17:21:06', 4, 6, 7, 255, 10, '{\"m\":\"\"}'),
+(1191, '2020-02-14 17:21:36', 4, 6, 6, 38, 2, '[]'),
+(1192, '2020-02-14 17:21:36', 4, 6, 7, 255, 10, '{\"m\":null}'),
+(1193, '2020-02-14 17:25:51', 4, 6, 7, 45, 10, '{\"m\":\"\"}'),
+(1194, '2020-02-14 17:25:51', 4, 6, 7, 45, 10, '{\"m\":\"\"}'),
+(1195, '2020-02-14 17:26:44', 4, 6, 7, 44, 10, '{\"m\":\"\"}'),
+(1196, '2020-02-14 17:26:44', 4, 6, 7, 44, 10, '{\"m\":\"\"}'),
+(1197, '2020-02-14 17:27:08', 4, 6, 6, 39, 2, '[]'),
+(1198, '2020-02-14 17:27:08', 4, 6, 7, 44, 10, '{\"m\":null}'),
+(1199, '2020-02-14 17:28:09', 4, 6, 7, 47, 10, '{\"m\":\"\"}'),
+(1200, '2020-02-14 17:28:09', 4, 6, 7, 47, 10, '{\"m\":\"\"}'),
+(1201, '2020-02-14 17:28:50', 4, 6, 7, 48, 10, '{\"m\":\"\"}'),
+(1202, '2020-02-14 17:28:50', 4, 6, 7, 48, 10, '{\"m\":\"\"}'),
+(1203, '2020-02-14 17:29:51', 4, 6, 7, 234, 10, '{\"m\":\"\"}'),
+(1204, '2020-02-14 17:29:51', 4, 6, 7, 234, 10, '{\"m\":\"\"}'),
+(1205, '2020-02-14 17:30:18', 4, 6, 6, 40, 2, '[]'),
+(1206, '2020-02-14 17:30:18', 4, 6, 7, 234, 10, '{\"m\":null}'),
+(1207, '2020-02-14 17:31:05', 4, 6, 7, 46, 10, '{\"m\":\"\"}'),
+(1208, '2020-02-14 17:31:05', 4, 6, 7, 46, 10, '{\"m\":\"\"}'),
+(1209, '2020-02-14 17:33:21', 4, 6, 7, 49, 10, '{\"m\":\"\"}'),
+(1210, '2020-02-14 17:33:21', 4, 6, 7, 49, 10, '{\"m\":\"\"}'),
+(1211, '2020-02-14 17:34:13', 4, 6, 6, 41, 2, '[]'),
+(1212, '2020-02-14 17:34:13', 4, 6, 7, 241, 10, '{\"m\":null}'),
+(1213, '2020-02-14 17:34:54', 4, 6, 7, 241, 10, '{\"m\":\"\"}'),
+(1214, '2020-02-14 17:34:54', 4, 6, 7, 241, 10, '{\"m\":\"\"}'),
+(1215, '2020-02-14 17:35:54', 4, 6, 7, 241, 10, '{\"m\":\"\"}'),
+(1216, '2020-02-14 17:35:54', 4, 6, 7, 241, 10, '{\"m\":\"\"}'),
+(1217, '2020-02-14 17:36:44', 4, 6, 7, 241, 10, '{\"m\":\"\"}'),
+(1218, '2020-02-14 17:36:44', 4, 6, 7, 241, 10, '{\"m\":\"\"}'),
+(1219, '2020-02-14 17:37:46', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1220, '2020-02-14 17:38:52', 4, 6, 7, 220, 10, '{\"m\":\"\"}'),
+(1221, '2020-02-14 17:38:52', 4, 6, 7, 220, 10, '{\"m\":\"\"}'),
+(1222, '2020-02-14 17:39:15', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1223, '2020-02-14 17:39:15', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1224, '2020-02-14 17:40:33', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1225, '2020-02-14 17:40:33', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1226, '2020-02-14 17:40:58', 4, 6, 6, 42, 2, '[]'),
+(1227, '2020-02-14 17:40:58', 4, 6, 7, 221, 10, '{\"m\":null}'),
+(1228, '2020-02-14 17:41:44', 4, 6, 7, 222, 10, '{\"m\":\"\"}'),
+(1229, '2020-02-14 17:41:44', 4, 6, 7, 222, 10, '{\"m\":\"\"}'),
+(1230, '2020-02-14 17:42:03', 4, 6, 6, 43, 2, '[]'),
+(1231, '2020-02-14 17:42:03', 4, 6, 7, 222, 10, '{\"m\":null}'),
+(1232, '2020-02-14 17:43:28', 4, 6, 7, 132, 10, '{\"m\":\"\"}'),
+(1233, '2020-02-14 17:43:30', 4, 6, 6, 44, 2, '[]'),
+(1234, '2020-02-14 17:43:30', 4, 6, 7, 132, 10, '{\"m\":null}'),
+(1235, '2020-02-14 17:44:10', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1236, '2020-02-14 17:44:11', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1237, '2020-02-14 17:44:58', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1238, '2020-02-14 17:44:58', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1239, '2020-02-14 17:46:30', 4, 6, 7, 233, 10, '{\"m\":\"\"}'),
+(1240, '2020-02-14 17:46:30', 4, 6, 7, 233, 10, '{\"m\":\"\"}'),
+(1241, '2020-02-14 17:46:39', 4, 6, 7, 233, 10, '{\"m\":\"\"}'),
+(1242, '2020-02-14 17:46:39', 4, 6, 7, 233, 10, '{\"m\":\"\"}'),
+(1243, '2020-02-14 17:47:00', 4, 6, 6, 45, 2, '[]'),
+(1244, '2020-02-14 17:47:00', 4, 6, 7, 233, 10, '{\"m\":null}'),
+(1245, '2020-02-14 17:48:31', 4, 6, 7, 226, 10, '{\"m\":\"\"}'),
+(1246, '2020-02-14 17:48:31', 4, 6, 7, 226, 10, '{\"m\":\"\"}'),
+(1247, '2020-02-14 17:48:52', 4, 6, 6, 46, 2, '[]'),
+(1248, '2020-02-14 17:48:52', 4, 6, 7, 226, 10, '{\"m\":null}'),
+(1249, '2020-02-14 17:49:56', 4, 6, 7, 218, 10, '{\"m\":\"\"}'),
+(1250, '2020-02-14 17:49:56', 4, 6, 7, 218, 10, '{\"m\":\"\"}'),
+(1251, '2020-02-14 17:50:56', 4, 6, 6, 23, 9, '[]'),
+(1252, '2020-02-14 17:51:23', 4, 6, 7, 218, 10, '{\"m\":\"\"}'),
+(1253, '2020-02-14 17:51:23', 4, 6, 7, 218, 10, '{\"m\":\"\"}'),
+(1254, '2020-02-14 17:56:29', 4, 6, 7, 223, 10, '{\"m\":\"\"}'),
+(1255, '2020-02-14 17:56:29', 4, 6, 7, 223, 10, '{\"m\":\"\"}'),
+(1256, '2020-02-14 17:56:44', 4, 6, 7, 223, 10, '{\"m\":\"\"}'),
+(1257, '2020-02-14 17:56:44', 4, 6, 7, 223, 10, '{\"m\":\"\"}'),
+(1258, '2020-02-14 17:57:25', 4, 6, 6, 47, 2, '[]'),
+(1259, '2020-02-14 17:57:25', 4, 6, 7, 223, 10, '{\"m\":null}'),
+(1260, '2020-02-14 17:58:33', 4, 6, 7, 224, 10, '{\"m\":\"\"}'),
+(1261, '2020-02-14 17:58:33', 4, 6, 7, 224, 10, '{\"m\":\"\"}'),
+(1262, '2020-02-14 17:58:50', 4, 6, 6, 48, 2, '[]'),
+(1263, '2020-02-14 17:58:50', 4, 6, 7, 224, 10, '{\"m\":null}'),
+(1264, '2020-02-14 17:59:23', 4, 6, 7, 224, 10, '{\"m\":\"\"}'),
+(1265, '2020-02-14 17:59:23', 4, 6, 7, 224, 10, '{\"m\":\"\"}'),
+(1266, '2020-02-14 18:00:20', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1267, '2020-02-14 18:00:20', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1268, '2020-02-14 18:01:09', 4, 6, 6, 2, 7, '[]'),
+(1269, '2020-02-14 18:02:02', 4, 6, 7, 236, 10, '{\"m\":\"\"}'),
+(1270, '2020-02-14 18:02:02', 4, 6, 7, 236, 10, '{\"m\":\"\"}'),
+(1271, '2020-02-14 18:02:18', 4, 6, 6, 49, 2, '[]'),
+(1272, '2020-02-14 18:02:18', 4, 6, 7, 236, 10, '{\"m\":null}'),
+(1273, '2020-02-14 18:04:01', 4, 6, 7, 231, 10, '{\"m\":\"\"}'),
+(1274, '2020-02-14 18:04:01', 4, 6, 7, 231, 10, '{\"m\":\"\"}'),
+(1275, '2020-02-14 18:04:12', 4, 6, 6, 50, 2, '[]'),
+(1276, '2020-02-14 18:04:12', 4, 6, 7, 231, 10, '{\"m\":null}'),
+(1277, '2020-02-14 18:05:14', 4, 6, 7, 217, 10, '{\"m\":\"\"}'),
+(1278, '2020-02-14 18:05:14', 4, 6, 7, 217, 10, '{\"m\":\"\"}'),
+(1279, '2020-02-14 18:05:39', 4, 6, 6, 51, 2, '[]'),
+(1280, '2020-02-14 18:05:39', 4, 6, 7, 217, 10, '{\"m\":null}'),
+(1281, '2020-02-14 18:06:49', 4, 6, 6, 52, 2, '[]'),
+(1282, '2020-02-14 18:06:49', 4, 6, 7, 218, 10, '{\"m\":null}'),
+(1283, '2020-02-14 18:07:25', 4, 6, 6, 53, 2, '[]'),
+(1284, '2020-02-14 18:07:25', 4, 6, 7, 219, 10, '{\"m\":null}'),
+(1285, '2020-02-14 18:08:12', 4, 6, 6, 54, 2, '[]'),
+(1286, '2020-02-14 18:08:12', 4, 6, 7, 220, 10, '{\"m\":null}'),
+(1287, '2020-02-14 18:09:20', 4, 6, 6, 55, 2, '[]'),
+(1288, '2020-02-14 18:09:20', 4, 6, 7, 129, 10, '{\"m\":null}'),
+(1289, '2020-02-14 18:10:32', 4, 6, 6, 56, 2, '[]'),
+(1290, '2020-02-14 18:10:32', 4, 6, 7, 128, 10, '{\"m\":null}'),
+(1291, '2020-02-14 18:11:35', 4, 6, 6, 57, 2, '[]'),
+(1292, '2020-02-14 18:11:35', 4, 6, 7, 109, 10, '{\"m\":null}'),
+(1293, '2020-02-14 18:13:31', 4, 6, 6, 58, 2, '[]'),
+(1294, '2020-02-14 18:13:31', 4, 6, 7, 108, 10, '{\"m\":null}'),
+(1295, '2020-02-14 18:14:57', 4, 6, 6, 59, 2, '[]'),
+(1296, '2020-02-14 18:14:57', 4, 6, 7, 16, 10, '{\"m\":null}'),
+(1297, '2020-02-14 18:16:05', 4, 6, 6, 60, 2, '[]'),
+(1298, '2020-02-14 18:18:40', 4, 6, 5, 60, 2, '{\"n\":\"bat1\"}'),
+(1299, '2020-02-14 18:18:49', 4, 6, 6, 61, 2, '[]'),
+(1300, '2020-02-14 18:18:55', 4, 6, 5, 61, 2, '{\"n\":\"bat1\"}'),
+(1301, '2020-02-14 18:20:03', 4, 6, 6, 62, 2, '[]'),
+(1302, '2020-02-14 18:20:09', 4, 6, 5, 62, 2, '{\"n\":\"ba\"}'),
+(1303, '2020-02-14 18:21:01', 4, 6, 6, 63, 2, '[]'),
+(1304, '2020-02-14 18:21:01', 4, 6, 7, 90, 10, '{\"m\":null}'),
+(1305, '2020-02-18 20:14:18', 4, 6, 1, 4, 1, '{\"i\":\"62.59.57.0\"}'),
+(1306, '2020-02-18 20:15:23', 4, 6, 6, 256, 10, '{\"i\":\"10\"}'),
+(1307, '2020-02-18 20:15:40', 4, 6, 6, 64, 2, '[]'),
+(1308, '2020-02-18 20:15:40', 4, 6, 7, 256, 10, '{\"m\":null}'),
+(1309, '2020-02-18 20:16:26', 4, 6, 7, 256, 10, '{\"m\":\"\"}'),
+(1310, '2020-02-18 20:16:26', 4, 6, 7, 256, 10, '{\"m\":\"\"}'),
+(1311, '2020-02-18 20:21:17', 4, 6, 6, 106, 4, '[]'),
+(1312, '2020-02-18 20:21:26', 4, 6, 6, 107, 4, '[]'),
+(1313, '2020-02-18 20:21:45', 4, 6, 6, 108, 4, '[]'),
+(1314, '2020-02-18 20:21:49', 4, 6, 6, 109, 4, '[]'),
+(1315, '2020-02-18 20:22:10', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1316, '2020-02-18 20:22:10', 4, 6, 7, 219, 10, '{\"m\":\"\"}'),
+(1317, '2020-02-18 20:22:36', 4, 6, 7, 220, 10, '{\"m\":\"\"}'),
+(1318, '2020-02-18 20:22:57', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1319, '2020-02-18 20:22:57', 4, 6, 7, 221, 10, '{\"m\":\"\"}'),
+(1320, '2020-02-18 20:23:19', 4, 6, 7, 256, 10, '{\"m\":\"\"}'),
+(1321, '2020-02-18 20:23:19', 4, 6, 7, 256, 10, '{\"m\":\"\"}'),
+(1322, '2020-02-18 20:23:47', 4, 6, 7, 225, 10, '{\"m\":\"\"}'),
+(1323, '2020-02-18 20:23:47', 4, 6, 7, 225, 10, '{\"m\":\"\"}'),
+(1324, '2020-02-18 20:24:06', 4, 6, 7, 218, 10, '{\"m\":\"\"}'),
+(1325, '2020-02-18 20:24:27', 4, 6, 7, 217, 10, '{\"m\":\"\"}'),
+(1326, '2020-02-18 20:24:27', 4, 6, 7, 217, 10, '{\"m\":\"\"}'),
+(1327, '2020-02-18 20:24:46', 4, 6, 7, 226, 10, '{\"m\":\"\"}'),
+(1328, '2020-02-18 20:24:46', 4, 6, 7, 226, 10, '{\"m\":\"\"}'),
+(1329, '2020-02-18 20:25:00', 4, 6, 7, 233, 10, '{\"m\":\"\"}'),
+(1330, '2020-02-18 20:25:16', 4, 6, 7, 236, 10, '{\"m\":\"\"}'),
+(1331, '2020-02-18 20:25:16', 4, 6, 7, 236, 10, '{\"m\":\"\"}'),
+(1332, '2020-02-18 20:25:28', 4, 6, 7, 231, 10, '{\"m\":\"\"}'),
+(1333, '2020-02-18 20:25:28', 4, 6, 7, 231, 10, '{\"m\":\"\"}'),
+(1334, '2020-02-25 19:30:08', 4, 6, 1, 4, 1, '{\"i\":\"62.59.57.0\"}'),
+(1335, '2020-02-25 19:31:58', 4, 6, 6, 257, 10, '{\"i\":\"10\"}'),
+(1336, '2020-02-25 19:33:17', 4, 6, 6, 65, 2, '[]'),
+(1337, '2020-02-25 19:33:17', 4, 6, 7, 257, 10, '{\"m\":null}'),
+(1338, '2020-02-25 19:37:29', 4, 6, 6, 258, 10, '{\"i\":\"10\"}'),
+(1339, '2020-02-25 19:39:05', 4, 6, 6, 66, 2, '[]'),
+(1340, '2020-02-25 19:39:05', 4, 6, 7, 258, 10, '{\"m\":null}');
 
 -- --------------------------------------------------------
 
@@ -1680,7 +1869,8 @@ INSERT INTO `manufacturers` (`id`, `name`, `parent_id`, `address`, `phone_number
 (19, 'Siemens', NULL, '', '', '', '', '', '', '2019-07-25 19:55:48', '', '2019-07-25 19:55:48'),
 (20, 'Commodore semiconducter group', NULL, '', '', '', '', '', '', '2020-01-25 17:03:36', '', '2020-01-25 17:03:41'),
 (21, 'Rockwell', NULL, '', '', '', '', '', '', '2020-01-25 17:03:53', '', '2020-01-25 17:03:53'),
-(22, 'Fairchild semiconducter', NULL, '', '', '', '', '', '', '2020-01-25 17:04:35', '', '2020-01-25 17:04:35');
+(22, 'Fairchild semiconducter', NULL, '', '', '', '', '', '', '2020-01-25 17:04:35', '', '2020-01-25 17:04:35'),
+(23, 'ON Semiconductor', NULL, '', '', '', '', 'https://www.onsemi.com/', '', '2020-02-14 17:50:56', '', '2020-02-14 17:50:56');
 
 -- --------------------------------------------------------
 
@@ -1712,7 +1902,10 @@ INSERT INTO `orderdetails` (`id`, `part_id`, `id_supplier`, `supplierpartnr`, `o
 (9, 104, 2, '73729447963621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dCcqq8J&orderId=73729447963621', '2020-01-25 16:30:59'),
 (10, 23, 2, '72257896153621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4di4PoLf&orderId=72257896153621', '2020-01-25 16:44:58'),
 (11, 254, 2, '8003292659823621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dqWqOlX&orderId=8003292659823621', '2020-01-25 16:58:58'),
-(12, 80, 2, '95300212163621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dAI3JYO&orderId=95300212163621', '2020-01-30 21:11:49');
+(12, 80, 2, '95300212163621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dAI3JYO&orderId=95300212163621', '2020-01-30 21:11:49'),
+(13, 255, 2, '3002262515963621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dktzOFC&orderId=3002262515963621', '2020-02-14 17:23:29'),
+(14, 257, 2, '3002582640133621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dzYaSov&orderId=3002582640133621', '2020-02-25 19:35:03'),
+(15, 258, 2, '3002582640133621', 0, 'https://trade.aliexpress.com/order_detail.htm?spm=a2g0s.9042311.0.0.27424c4dzYaSov&orderId=3002582640133621', '2020-02-25 19:38:50');
 
 -- --------------------------------------------------------
 
@@ -1762,7 +1955,7 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (13, 36, 'SG90 micro servo', 'servo voor robotica', 3, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 14, '', '2019-04-12 21:54:32', '2019-09-19 08:17:59', 0),
 (14, 94, 'ATSAMD21G18A', 'ORTEX-M0+, 256KB Flash, 32KB SRAM, Usb, Dma, T&r - 48TQFP Ind Temp, Green, 1.6-3.6V, 48MHZ', 0, 0, '', 0, NULL, 20, NULL, 1, 0, 2, 31, 'https://www.microchip.com/wwwproducts/en/ATSAMD21G18', '2019-04-12 22:03:40', '2020-01-30 22:55:02', 0),
 (15, 25, 'SPDT switch', 'schakelaar', 20, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-12 22:06:14', '2019-04-12 22:06:14', 0),
-(16, 14, '18650 batterij 4,7v 2200-2300mAh', 'LiPo batterij 4,7v', 20, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-12 22:13:52', '2019-04-13 15:17:11', 0),
+(16, 14, '18650 batterij 4,7v 2200-2300mAh', 'LiPo batterij 4,7v', 20, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 59, '', '2019-04-12 22:13:52', '2020-02-14 18:15:01', 0),
 (17, 42, 'Motor geel', 'gele robotmotortjes', 8, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-12 22:19:32', '2019-04-12 22:19:32', 0),
 (18, 11, 'ADXL345', 'breakout,  I2C 3-axis sensor, 3,3v sensor X,Y en Z', 10, 0, '', 0, NULL, 6, NULL, 1, 0, NULL, NULL, 'https://www.analog.com/en/products/adxl345.html', '2019-04-12 22:21:31', '2019-04-13 15:39:18', 0),
 (19, 11, 'DHT-22', 'breakout, luchtvochtigheid en temperatuursensor', 4, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-12 22:22:16', '2019-04-13 15:38:38', 0),
@@ -1789,12 +1982,12 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (41, 31, 'LED 5mm rood', 'rood LEDje', 50, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 08:57:18', '2019-04-13 08:57:18', 0),
 (42, 2, 'IRL2703', '30V Single N-Channel HEXFET Power MOSFET in a TO-220AB package', 10, 0, '', 0, NULL, 20, NULL, 1, 0, 5, 27, '', '2019-04-13 12:25:37', '2020-01-30 22:49:42', 0),
 (43, 66, 'Solderpaste 10cc', 'Soldeerpasta', 3, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:30:40', '2019-04-13 16:30:31', 0),
-(44, 21, '1N4148', 'Scottschkey', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:33:09', '2019-04-13 12:33:09', 0),
-(45, 21, '1N4007', 'diode 1N4007', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:33:54', '2019-04-13 12:33:54', 0),
-(46, 21, '1N5819', '  SCHOTTKY BARRIER RECTIFIERS 1 AMPERE 20, 30 and 40 VOLTS', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, NULL, '', '2019-04-13 12:34:17', '2019-05-16 07:00:07', 0),
-(47, 21, '1N5399', 'diode 1N5399', 5, 0, '', 0, NULL, 20, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:35:10', '2019-04-13 12:35:10', 0),
-(48, 21, '1N5408', '1N5408 diode', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:35:36', '2019-04-13 12:35:55', 0),
-(49, 21, '1N5822', '1N5822 diode', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:36:43', '2019-04-13 12:36:43', 0),
+(44, 21, '1N4148', '500 mW 100V Max Reverse Voltage 200 mA Small Signal Diode', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 39, '', '2019-04-13 12:33:09', '2020-02-14 17:27:13', 0),
+(45, 21, '1N4007', 'diode 1000 V 1A Through Hole Glass Passivated Junction Rectifier', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:33:54', '2020-02-14 17:25:51', 0),
+(46, 21, '1N5819', 'diode 40 V 1 A Schottky Rectifier Diode', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, NULL, '', '2019-04-13 12:34:17', '2020-02-14 17:31:05', 0),
+(47, 21, '1N5399', 'diode  1000 V 1.5A Through Hole General Purpose Plastic Rectifier', 5, 0, '', 0, NULL, 20, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:35:10', '2020-02-14 17:28:09', 0),
+(48, 21, '1N5408', 'diode 1000 V 3 A Through Hole General Purpose Plastic Rectifier', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:35:36', '2020-02-14 17:28:50', 0),
+(49, 21, '1N5822', 'diode  40 V 3 A Through Hole High Frequency Schottky Rectifier', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:36:43', '2020-02-14 17:33:21', 0),
 (50, 21, 'FR107', 'FAST RECOVERY RECTIFIER(VOLTAGE RANGE - 50 to 1000 Volts CURRENT - 1.0 Ampere)', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 12:37:07', '2019-05-16 07:02:30', 0),
 (51, 21, 'FR207', '2.0A FAST RECOVERY RECTIFIER', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, NULL, '', '2019-04-13 12:37:43', '2019-05-16 07:02:42', 0),
 (52, 68, 'SRD-12VDC-SL-C', 'Relay 10A 250V AC , 10A 30V DC', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 13:22:22', '2019-04-13 13:22:22', 0),
@@ -1834,7 +2027,7 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (87, 64, '100v 4700uF THT', 'dikke cap', 1, 0, '', 0, NULL, NULL, NULL, 1, 0, 8, NULL, '', '2019-04-13 15:01:22', '2019-04-17 21:36:25', 0),
 (88, 49, '5V breakout 1', 'een enkele 8-pins', 1, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 15:03:08', '2019-04-13 15:03:08', 0),
 (89, 76, 'CN3791', '1S 3.7v - 4,2v 18650 LiPo controller', 3, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://nl.aliexpress.com/item/1-Cell-Lithium-Batterij-Opladen-3-7-v-4-2-v-CN3791-MPPT-Zonnepaneel-Regulator-Controller/32900911894.html?spm=a2g0z.search0104.3.1.6cd11cdbpkLvdU&transAbTest=ae803_5&ws_ab_test=searchweb0_0%2Csearchweb201602_3_10065_10068_10', '2019-04-13 15:10:20', '2019-04-13 15:10:20', 0),
-(90, 71, '4S 40A', '4 S 40A Li-Ion Lithium Batterij Oplader Module Bescherming Boord PCB BMS 18650 Lipo Mobiele Module w/Balancer Voor boor Motor', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://nl.aliexpress.com/item/4-S-40A-Li-Ion-Lithium-Batterij-Oplader-Module-Bescherming-Boord-PCB-BMS-18650-Lipo-Mobiele/32839009198.html?spm=a2g0z.search0104.3.3.60641c1du8Zyy6&transAbTest=ae803_5&ws_ab_test=searchweb0_0%2Csearchweb201602_3_10065_10068', '2019-04-13 15:11:57', '2019-04-13 18:51:46', 0),
+(90, 71, '4S 40A', '4 S 40A Li-Ion Lithium Batterij Oplader Module Bescherming Boord PCB BMS 18650 Lipo Mobiele Module w/Balancer Voor boor Motor', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 63, 'https://nl.aliexpress.com/item/4-S-40A-Li-Ion-Lithium-Batterij-Oplader-Module-Bescherming-Boord-PCB-BMS-18650-Lipo-Mobiele/32839009198.html?spm=a2g0z.search0104.3.3.60641c1du8Zyy6&transAbTest=ae803_5&ws_ab_test=searchweb0_0%2Csearchweb201602_3_10065_10068', '2019-04-13 15:11:57', '2020-02-14 18:21:01', 0),
 (91, 71, 'cellmeter 7', 'Auto balancer en oploader', 1, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://nl.aliexpress.com/wholesale?catId=0&initiative_id=AS_20190413071237&SearchText=cellmeter+7', '2019-04-13 15:13:28', '2019-04-13 18:52:04', 0),
 (92, 75, '9V alkaline niet herlaadbaar', '', 4, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 15:19:23', '2019-04-13 15:19:23', 0),
 (93, 94, 'STM32F103C8T6', 'Blue Pill 32bit ARM Cortex M3 Microcontroller, STM32F, 72MHz, 64 kB Flash, 48-Pin LQFP', 2, 0, 'STM32F103C8T6  ARM Cortex M3', 0, NULL, NULL, NULL, 1, 0, NULL, 32, 'https://opencircuit.nl/Product/11465/STM32-ARM-development-board-STM32F103C8T6', '2019-04-13 15:25:57', '2020-01-30 22:57:52', 0),
@@ -1851,8 +2044,8 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (104, 83, 'ULN2803APG', '8ch Darlington Sink Driver ', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 9, 18, '', '2019-04-13 16:41:16', '2020-01-25 16:33:36', 0),
 (105, 84, '74HC595', 'Schuifregister', 30, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, NULL, '', '2019-04-13 16:46:45', '2019-04-19 19:43:30', 0),
 (106, 11, 'HC-SR501', 'PIR sensor', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 17:28:57', '2019-04-13 17:28:57', 0),
-(108, 86, 'HC-06', 'Bluetooth module', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 17:32:59', '2019-04-13 17:32:59', 0),
-(109, 86, 'RFM96W', '868Mhz LoRa gateway module', 3, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 17:35:24', '2019-04-13 17:35:24', 0),
+(108, 86, 'HC-06', 'Bluetooth module', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 58, '', '2019-04-13 17:32:59', '2020-02-14 18:13:36', 0),
+(109, 86, 'RFM96W', '868Mhz LoRa gateway module', 3, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 57, '', '2019-04-13 17:35:24', '2020-02-14 18:11:39', 0),
 (110, 11, 'TCRT5000', 'Line follower', 13, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://www.aliexpress.com/item/5PCS-TCRT5000-DC-5V-IR-Infrared-Line-Track-Follower-Sensor-Obstacle-Avoidanc-For-Arduino-AVR-ARM/32945970856.html?spm=2114.search0604.3.44.31d03731xkmKVG&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059', '2019-04-13 17:42:54', '2019-04-13 17:42:54', 0),
 (111, 55, 'TM1637', '4-LED TM1637', 8, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 7, '', '2019-04-13 17:47:12', '2019-08-14 18:48:55', 0),
 (112, 9, 'Makey Makey', 'Bestuur Scratch met apparaat', 1, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 17:49:40', '2019-04-13 17:49:40', 0),
@@ -1871,11 +2064,11 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (125, 76, 'Solarpanel 5v', 'mini paneeltje', 2, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 18:53:42', '2019-04-13 18:53:42', 0),
 (126, 76, 'Solarpanel 12v', 'Zonnenpaneel iets groter', 2, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 18:54:20', '2019-04-13 18:54:20', 0),
 (127, 90, 'Krimpkous zwart 5mm', 'Krimpkous zwart', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 18:56:46', '2019-04-13 18:56:46', 0),
-(128, 40, 'breadboard 830', '830 pins', 6, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 18:57:40', '2019-04-13 18:57:40', 0),
-(129, 40, 'breadboard 400', '400 pins', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 18:58:06', '2019-04-13 18:58:35', 0),
+(128, 40, 'breadboard 830', '830 pins', 6, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 56, '', '2019-04-13 18:57:40', '2020-02-14 18:10:36', 0),
+(129, 40, 'breadboard 400', '400 pins', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 55, '', '2019-04-13 18:58:06', '2020-02-14 18:09:30', 0),
 (130, 40, 'mini breadbord', 'mini breadbord', 2, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 18:59:06', '2019-04-13 19:01:30', 0),
 (131, 91, 'CD74HC147E', 'Multiplexer', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, NULL, '', '2019-04-13 19:07:29', '2019-04-13 19:07:29', 0),
-(132, 3, '2N7000', 'TMOS FET transistor, N-channel, TO-92 package', 20, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, NULL, '', '2019-04-13 19:15:05', '2019-04-13 19:17:30', 0),
+(132, 3, '2N7000', 'TMOS 60 V 200 mA N-Ch. Enhancement Mode Field Effect Transistor, TO-92 package', 20, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, 44, 'https://octopart.com/2n7000-d26z-on+semiconductor-84793555?r=sp', '2019-04-13 19:15:05', '2020-02-14 17:43:30', 0),
 (133, 39, 'Grove Universal 4-pin buckle', 'snoer en connector', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 19:19:20', '2019-04-13 19:19:20', 0),
 (134, 39, 'Grove socket', 'Grove socket', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 19:20:16', '2019-04-13 19:20:16', 0),
 (135, 65, '35v 22uF SMD', 'caps op strip', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-04-13 19:21:20', '2019-04-13 19:21:20', 0),
@@ -1960,30 +2153,30 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (214, 99, 'IR2301S', 'SPWM inverter with Arduino', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, 4, NULL, '', '2019-04-21 08:55:25', '2019-04-21 08:57:21', 0),
 (215, 4, 'SP370DL', 'Pressure Acceleration temp voltage sensor DSOSP14', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://www.aliexpress.com/item/SP37DL-SP37-DSOSP14/32931434652.html?spm=2114.search0104.3.2.672d1e9fThI9zF&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059_10884_317_10887_10696_321_322_453_10084_454_10083_10103_10618_10304_10307_108', '2019-04-21 08:59:59', '2019-04-21 09:02:08', 0),
 (216, 102, 'XT60', 'LiPo draad connector', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://www.aliexpress.com/item/10pair-lot-XT60-bullet-Connectors-plugs-Male-Female-RC-lipo-free-shipping/388573167.html?spm=2114.search0104.3.2.628e7d165mSd1W&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059_10884_317_10887_10696_321', '2019-04-26 14:30:03', '2019-04-26 14:30:03', 0),
-(217, 3, 'BC337', 'PNP transistor', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, NULL, '', '2019-05-01 15:33:10', '2019-05-01 15:42:10', 0),
-(218, 3, 'BC327', 'PNP general purpose transistor', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 6, NULL, '', '2019-05-01 15:33:38', '2019-05-01 15:47:23', 0),
-(219, 3, '2N2222', 'NPN transistor', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:33:53', '2019-05-01 15:43:36', 0),
-(220, 3, '2N2907', 'PNP switching transistors', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 6, NULL, '', '2019-05-01 15:34:30', '2019-05-01 15:45:33', 0),
-(221, 3, '2N3904', 'NPN', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:36:01', '2019-05-01 15:36:08', 0),
-(222, 3, '2N3906', 'PNP switching transistor', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:36:26', '2019-05-01 15:44:40', 0),
-(223, 3, 'S8050', 'NPN General Purpose Transistors', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:36:40', '2019-05-01 15:48:39', 0),
-(224, 3, 'S8550', 'NPN General Purpose Transistors', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:37:09', '2019-05-01 15:49:07', 0),
-(225, 3, 'A1015', 'PNP EPITAXIAL PLANAR TRANSISTOR', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:37:24', '2019-05-01 15:46:51', 0),
-(226, 3, 'C1815', 'PNP Epitaxail Type(for Audio Frequency General Purpose Amplifier Applications)', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, NULL, '', '2019-05-01 15:38:05', '2019-05-01 15:48:00', 0),
+(217, 106, 'BC337', 'NPN, 45 V CE Breakdown .8 A , TO-92', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, 51, '', '2019-05-01 15:33:10', '2020-02-18 20:24:27', 0),
+(218, 107, 'BC327', 'PNP 625 mW 45 V Through Hole Epitaxial Silicon Transistor - TO-92-3 USD 0,061', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 23, 52, 'https://octopart.com/bc32725bu-on+semiconductor-84408922?r=sp', '2019-05-01 15:33:38', '2020-02-18 20:24:06', 0),
+(219, 106, '2N2222', 'NPN, 40V, 600mA, TO-92', 10, 0, '', 0, 1, NULL, NULL, 1, 0, NULL, 53, '', '2019-05-01 15:33:53', '2020-02-18 20:22:26', 0),
+(220, 107, '2N2907', 'PNP, 60V, 0.6A, TO-18', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 6, 54, '', '2019-05-01 15:34:30', '2020-02-18 20:22:36', 0),
+(221, 106, '2N3904', 'NPN, 40 V CE Breakdown 0.2 A General Purpose Amplifier ', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 42, 'https://octopart.com/2n3904zl1g-on+semiconductor-1472814?r=sp', '2019-05-01 15:36:01', '2020-02-18 20:23:04', 0),
+(222, 3, '2N3906', 'PNP, 40 V CE Breakdown 0.2 A', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 43, '', '2019-05-01 15:36:26', '2020-02-14 17:42:08', 0),
+(223, 3, 'S8050', ' NPN Epitaxial Silicon 25V 1500mA 100MHz 1W', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 23, 47, '', '2019-05-01 15:36:40', '2020-02-14 17:57:30', 0),
+(224, 3, 'S8550', 'PNP,  25V 1500mA 200MHz 1W TO-92-3, BJT', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 23, 48, 'https://octopart.com/ss8550dta-on+semiconductor-84331641?r=sp', '2019-05-01 15:37:09', '2020-02-14 17:59:23', 0),
+(225, 107, 'A1015', 'PNP EPITAXIAL PLANAR TRANSISTOR', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-01 15:37:24', '2020-02-18 20:23:47', 0),
+(226, 106, 'C1815', 'NPN, 50 V 150 mA Through Hole Audio Frequency General Purpose Amplifier, Transistor-TO-92 Type', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, 46, '', '2019-05-01 15:38:05', '2020-02-18 20:24:46', 0),
 (228, 4, 'SN74LS08N', 'QUAD 2-INPUT AND GATE', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, NULL, '', '2019-05-01 16:44:35', '2019-05-01 16:45:54', 0),
 (229, 62, '74HC04', 'Hex inverter', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, NULL, '', '2019-05-01 17:32:52', '2019-05-01 17:32:52', 0),
 (230, 72, 'DW01-P', '18650 batterij positief pool bescherming', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, 'https://www.aliexpress.com/item/Protection-board-18650-lithium-battery-general-double-MOS-protection-plate-4-2-V18650-cylindrical-protective-plate/32808209178.html?spm=a2g0o.cart.99999999.260.777d3c00mzhFbS', '2019-05-05 07:30:46', '2019-05-05 07:37:00', 0),
-(231, 3, 'TIP122', 'TO220  POWER TRANSISTORS(5.0A,60-100V,65W)', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-11 12:21:57', '2019-05-11 12:23:28', 0),
+(231, 106, 'TIP122', 'NPN,  POWER TRANSISTORS(5.0A,60-100V,65W), TO220  ', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 50, '', '2019-05-11 12:21:57', '2020-02-18 20:25:28', 0),
 (232, 3, 'D882', 'NPN Power Transistor', 5, 0, '', 0, NULL, NULL, NULL, 1, 0, 7, NULL, '', '2019-05-11 13:33:47', '2019-05-11 13:34:42', 0),
-(233, 3, 'B772', 'PNP 3A designed for audio power amplifier TO-126', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-11 13:51:39', '2019-05-11 13:53:20', 0),
-(234, 21, '1N5810', '', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-16 06:59:12', '2019-05-16 06:59:12', 0),
+(233, 107, 'KSB772YSTU', 'PNP 3A designed for audio power amplifier TO-126', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 45, 'https://octopart.com/ksb772ystu-on+semiconductor-84329450?r=sp', '2019-05-11 13:51:39', '2020-02-18 20:25:00', 0),
+(234, 21, '1N5810', 'G4 6 Amp Rectifier / Bulk Rohs Compliant: Yes', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 40, '', '2019-05-16 06:59:12', '2020-02-14 17:30:22', 0),
 (235, 48, 'LF33CV', 'VERY LOW DROP VOLTAGE REGULATORS WITH INHIBIT', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 3, NULL, '', '2019-05-16 07:07:43', '2019-07-14 16:05:05', 0),
-(236, 3, 'TIP120', 'POWER TRANSISTORS(5.0A,60-100V,65W)', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, NULL, '', '2019-05-17 14:10:39', '2019-05-17 14:16:46', 0),
+(236, 106, 'TIP120', 'NPN POWER TRANSISTORS(5.0A,60-100V,65W)', 0, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, 49, '', '2019-05-17 14:10:39', '2020-02-18 20:25:16', 0),
 (237, 5, 'LMV358IDR', 'Dual Low-Voltage Rail-to-Rail Output Operational Amplifier ', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-05-23 20:47:04', '2019-05-23 20:48:06', 0),
 (238, 2, 'IRF3205', 'Power MOSFET(Vdss=55V, Rds(on)=8.0mohm, Id=110A)', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 10, NULL, '', '2019-05-23 20:49:35', '2019-05-23 20:50:51', 0),
 (239, 49, 'LM2575S', '1A step down 3.3V, 5V, 12V, 15V, and Adjustable Output', 10, 2, '', 0, NULL, NULL, NULL, 1, 0, 5, 23, '', '2019-06-15 13:30:42', '2020-01-30 22:40:51', 0),
 (240, 2, 'S2301', '3-13v DUAL BIDIRECTIONAL THYRISTOR OVERVOLTAGE PROTECTORS TSOP-8', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 5, 29, '', '2019-06-28 19:17:59', '2020-01-30 22:52:10', 0),
-(241, 21, 'BT152-600R', 'Thyristor, 800 V, 32 mA, 13 A, 20 A, TO-220AB, 3 Pins', 10, 0, 'https://nl.wikipedia.org/wiki/Thyristor\r\n\r\nEen thyristor is een halfgeleider, met de werking van een elektronische schakelaar, die geschikt is om grote vermogens bij hoge spanningen met betrekkelijk weinig verlies te schakelen.\r\n\r\nWerking\r\nEen thyristor gedraagt zich als een schakelbare diode, die met een extra stuuraansluiting (de z.g. gate), te bedienen is. De kathode wordt gemeenschappelijk gebruikt voor hoofd- en stuurstroom. Bij het aanleggen van een positieve gelijkspanning op de anode ten opzichte van de kathode, kan de thyristor door een triggerpuls op de gate in geleiding gebracht worden; er loopt dan een stroom door de thyristor en door de belasting. Als er eenmaal stroom loopt blijft deze lopen ongeacht de spanning op de gate. Dit is goed te zien in het vervangingsschema: beide transistoren sturen elkaar open. Wel neemt de dissipatie (warmte-ontwikkeling) in de thyristor toe naarmate er meer stroom door de gate loopt. Daarom wordt in professionele regelingen een reeks korte pulsjes (pulstrein) gebruikt. De thyristor schakelt pas weer uit als de stroom erdoor onder een minimumwaarde daalt. Deze grens wordt de houdstroom (IH) genoemd en verschilt per type thyristor. Een thyristor kan daarom alleen bij gelijkgerichte wisselspanning worden gebruikt, want tijdens de nuldoorgang is de stroom kleiner dan de houdstroom, zie afbeelding. Als de anodespanning negatief wordt gedraagt de thyristor zich als isolator.', 0, NULL, 20, NULL, 1, 0, NULL, NULL, '', '2019-07-07 16:24:47', '2019-07-07 16:24:47', 0),
+(241, 3, 'BT152-600R', 'Thyristor BT152 Series 600 V 1 mA , TO-220AB, 3 Pins', 10, 0, 'https://nl.wikipedia.org/wiki/Thyristor\r\n\r\nEen thyristor is een halfgeleider, met de werking van een elektronische schakelaar, die geschikt is om grote vermogens bij hoge spanningen met betrekkelijk weinig verlies te schakelen.\r\n\r\nWerking\r\nEen thyristor gedraagt zich als een schakelbare diode, die met een extra stuuraansluiting (de z.g. gate), te bedienen is. De kathode wordt gemeenschappelijk gebruikt voor hoofd- en stuurstroom. Bij het aanleggen van een positieve gelijkspanning op de anode ten opzichte van de kathode, kan de thyristor door een triggerpuls op de gate in geleiding gebracht worden; er loopt dan een stroom door de thyristor en door de belasting. Als er eenmaal stroom loopt blijft deze lopen ongeacht de spanning op de gate. Dit is goed te zien in het vervangingsschema: beide transistoren sturen elkaar open. Wel neemt de dissipatie (warmte-ontwikkeling) in de thyristor toe naarmate er meer stroom door de gate loopt. Daarom wordt in professionele regelingen een reeks korte pulsjes (pulstrein) gebruikt. De thyristor schakelt pas weer uit als de stroom erdoor onder een minimumwaarde daalt. Deze grens wordt de houdstroom (IH) genoemd en verschilt per type thyristor. Een thyristor kan daarom alleen bij gelijkgerichte wisselspanning worden gebruikt, want tijdens de nuldoorgang is de stroom kleiner dan de houdstroom, zie afbeelding. Als de anodespanning negatief wordt gedraagt de thyristor zich als isolator.', 0, NULL, 20, NULL, 1, 0, NULL, 41, '', '2019-07-07 16:24:47', '2020-02-14 17:36:44', 0),
 (242, 4, 'ICL7660S', 'Voltage multiplyer +1,5 tot +12v DIP-8', 10, 0, '', 0, NULL, 20, NULL, 1, 0, NULL, NULL, '', '2019-07-07 16:32:56', '2019-07-07 16:32:56', 0),
 (243, 4, 'IR2103', ' HALF-BRIDGE DRIVER DIP-8', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-07-11 19:12:13', '2019-07-11 19:56:49', 0),
 (244, 2, 'IRF1404Z', 'Specifically designed for Automotive applications', 10, 0, 'IRF1404PBF IRF1404Z TO-220 \r\nsinds 20190712\r\n', 0, NULL, NULL, NULL, 1, 0, NULL, 26, '', '2019-07-12 17:27:18', '2020-01-30 22:48:27', 0),
@@ -1996,7 +2189,11 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 (251, 41, 'N20 500 rpm DC6V', 'DC Geared Motor Krachtige Elektrische Mini Vertraging', 4, 2, '', 0, NULL, NULL, NULL, 1, 0, NULL, 13, '', '2019-09-19 08:12:29', '2019-09-19 08:14:29', 0),
 (252, 83, 'ULN2003APG', 'Darlington Sink Driver IC DIP-16', 10, 1, '', 0, NULL, 20, NULL, 1, 0, 9, 16, '', '2019-09-19 13:44:48', '2019-09-19 13:48:29', 0),
 (253, 94, 'MOS-6522', 'VERSATILE INTERFACE ADAPTER', 1, 0, 'The MCS6522 Versatile Interface Adapter (VIA) provides all of the capability of the MCS6520.\r\nIn addition, this device contains a pair of very powerful interval timers, a serial-to-parallel/\r\nparallel-to-serial shift register and input data latching on the peripheral ports. Expanded\r\nhandshaking capability allows control of bi-directional data transfers between VIA\'s in multiple\r\nprocessor systems.\r\nControl of peripheral devices is handled primarily through two 8-bit bi-directional ports.\r\nEach of these lines can be programmed to act as either an input or an output. Also, several\r\nperipheral I/O lines can be controlled directly from the interval timers for generating programmable-frequency square waves and for counting externally generated pulses. To facilitate\r\ncontrol of the many powerful features of this chip, the internal registers have been organized\r\ninto an interrupt flag register, an interrupt enable register and a pair of function control\r\nregisters.\r\n/ Very powerful expansion of basic MCS6520\r\ncapability.\r\n/ N channel, depletion load technology,\r\nsingle +5V supply.\r\ny Completely static and TTL compatible.\r\n/ CMOS compatible peripheral control lines.\r\n/ Expanded \"handshake\" capability allows very\r\npositive control of data transfers between\r\nprocessor and peripheral devices.', 0, NULL, NULL, NULL, 1, 0, NULL, NULL, '', '2019-10-08 20:46:32', '2019-10-08 20:52:06', 0),
-(254, 94, 'MOS6502', 'een van de bekendste 8 bit-processoren', 1, 0, '', 0, NULL, 20, NULL, 1, 0, 20, 21, '', '2020-01-25 16:56:13', '2020-01-25 17:04:56', 0);
+(254, 94, 'MOS6502', 'een van de bekendste 8 bit-processoren', 1, 0, '', 0, NULL, 20, NULL, 1, 0, 20, 21, '', '2020-01-25 16:56:13', '2020-01-25 17:04:56', 0),
+(255, 21, '1N4003', '200V 1A Through Hole Rectifier', 50, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 38, '', '2020-02-14 17:20:03', '2020-02-14 17:21:36', 0),
+(256, 107, '2N3906BU', 'PNP, 40 Volt 0.2 Amp 3-Pin TO-92 ', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, 23, 64, 'https://octopart.com/search?autosugg_idx=0&currency=USD&oq=2n3906&q=2n3906bu&specs=1', '2020-02-18 20:15:23', '2020-02-18 20:23:19', 0),
+(257, 106, 'TIP41C', 'NPN 100 V 6 A Complementary Power Transistor - TO-220', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 65, '', '2020-02-25 19:31:58', '2020-02-25 19:33:17', 0),
+(258, 106, '2SD882', ' NPN 30 V 3 A Through Hole Medium Power Transistor - SOT-32', 10, 0, '', 0, NULL, NULL, NULL, 1, 0, NULL, 66, '', '2020-02-25 19:37:29', '2020-02-25 19:39:05', 0);
 
 -- --------------------------------------------------------
 
@@ -2022,7 +2219,8 @@ INSERT INTO `pricedetails` (`id`, `orderdetails_id`, `price`, `price_related_qua
 (1, 2, '0.80000', 1, 1, 1, '2019-07-25 21:38:22'),
 (2, 6, '0.08200', 10, 1, 1, '2019-09-19 13:46:13'),
 (3, 7, '0.74000', 1, 1, 1, '2019-10-08 20:51:11'),
-(4, 12, '1.36000', 10, 1, 1, '2020-01-30 21:12:14');
+(4, 12, '1.36000', 10, 1, 1, '2020-01-30 21:12:14'),
+(5, 13, '1.29000', 50, 1, 1, '2020-02-14 17:24:40');
 
 -- --------------------------------------------------------
 
@@ -2296,7 +2494,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT voor een tabel `attachements`
 --
 ALTER TABLE `attachements`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
 --
 -- AUTO_INCREMENT voor een tabel `attachement_types`
 --
@@ -2306,7 +2504,7 @@ ALTER TABLE `attachement_types`
 -- AUTO_INCREMENT voor een tabel `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=106;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
 --
 -- AUTO_INCREMENT voor een tabel `devices`
 --
@@ -2321,7 +2519,7 @@ ALTER TABLE `device_parts`
 -- AUTO_INCREMENT voor een tabel `footprints`
 --
 ALTER TABLE `footprints`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT voor een tabel `groups`
 --
@@ -2331,27 +2529,27 @@ ALTER TABLE `groups`
 -- AUTO_INCREMENT voor een tabel `log`
 --
 ALTER TABLE `log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1183;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1341;
 --
 -- AUTO_INCREMENT voor een tabel `manufacturers`
 --
 ALTER TABLE `manufacturers`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 --
 -- AUTO_INCREMENT voor een tabel `orderdetails`
 --
 ALTER TABLE `orderdetails`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT voor een tabel `parts`
 --
 ALTER TABLE `parts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=255;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=259;
 --
 -- AUTO_INCREMENT voor een tabel `pricedetails`
 --
 ALTER TABLE `pricedetails`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT voor een tabel `storelocations`
 --
