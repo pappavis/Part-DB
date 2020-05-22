@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Gegenereerd op: 18 apr 2020 om 00:02
--- Serverversie: 5.7.29-0ubuntu0.18.04.1
--- PHP-versie: 7.2.24-0ubuntu0.18.04.3
+-- Gegenereerd op: 22 mei 2020 om 21:12
+-- Serverversie: 5.7.30-0ubuntu0.18.04.1
+-- PHP-versie: 7.2.24-0ubuntu0.18.04.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `partdb`
 --
+CREATE DATABASE IF NOT EXISTS `partdb` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `partdb`;
 
 -- --------------------------------------------------------
 
@@ -26,6 +28,7 @@ SET time_zone = "+00:00";
 -- Tabelstructuur voor tabel `attachements`
 --
 
+DROP TABLE IF EXISTS `attachements`;
 CREATE TABLE `attachements` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -37,6 +40,11 @@ CREATE TABLE `attachements` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `attachements`
+--
+
+TRUNCATE TABLE `attachements`;
 --
 -- Gegevens worden geëxporteerd voor tabel `attachements`
 --
@@ -126,6 +134,7 @@ INSERT INTO `attachements` (`id`, `name`, `class_name`, `element_id`, `type_id`,
 -- Tabelstructuur voor tabel `attachement_types`
 --
 
+DROP TABLE IF EXISTS `attachement_types`;
 CREATE TABLE `attachement_types` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -135,6 +144,11 @@ CREATE TABLE `attachement_types` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `attachement_types`
+--
+
+TRUNCATE TABLE `attachement_types`;
 --
 -- Gegevens worden geëxporteerd voor tabel `attachement_types`
 --
@@ -149,6 +163,7 @@ INSERT INTO `attachement_types` (`id`, `name`, `parent_id`, `comment`, `datetime
 -- Tabelstructuur voor tabel `categories`
 --
 
+DROP TABLE IF EXISTS `categories`;
 CREATE TABLE `categories` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -166,6 +181,11 @@ CREATE TABLE `categories` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `categories`
+--
+
+TRUNCATE TABLE `categories`;
 --
 -- Gegevens worden geëxporteerd voor tabel `categories`
 --
@@ -286,6 +306,7 @@ INSERT INTO `categories` (`id`, `name`, `parent_id`, `disable_footprints`, `disa
 -- Tabelstructuur voor tabel `devices`
 --
 
+DROP TABLE IF EXISTS `devices`;
 CREATE TABLE `devices` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -297,6 +318,11 @@ CREATE TABLE `devices` (
   `comment` text COLLATE utf8_unicode_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `devices`
+--
+
+TRUNCATE TABLE `devices`;
 --
 -- Gegevens worden geëxporteerd voor tabel `devices`
 --
@@ -354,6 +380,7 @@ INSERT INTO `devices` (`id`, `name`, `parent_id`, `order_quantity`, `order_only_
 -- Tabelstructuur voor tabel `device_parts`
 --
 
+DROP TABLE IF EXISTS `device_parts`;
 CREATE TABLE `device_parts` (
   `id` int(11) NOT NULL,
   `id_part` int(11) NOT NULL DEFAULT '0',
@@ -362,6 +389,11 @@ CREATE TABLE `device_parts` (
   `mountnames` mediumtext COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `device_parts`
+--
+
+TRUNCATE TABLE `device_parts`;
 --
 -- Gegevens worden geëxporteerd voor tabel `device_parts`
 --
@@ -386,6 +418,7 @@ INSERT INTO `device_parts` (`id`, `id_part`, `id_device`, `quantity`, `mountname
 -- Tabelstructuur voor tabel `footprints`
 --
 
+DROP TABLE IF EXISTS `footprints`;
 CREATE TABLE `footprints` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -397,6 +430,11 @@ CREATE TABLE `footprints` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `footprints`
+--
+
+TRUNCATE TABLE `footprints`;
 --
 -- Gegevens worden geëxporteerd voor tabel `footprints`
 --
@@ -411,6 +449,7 @@ INSERT INTO `footprints` (`id`, `name`, `filename`, `filename_3d`, `parent_id`, 
 -- Tabelstructuur voor tabel `groups`
 --
 
+DROP TABLE IF EXISTS `groups`;
 CREATE TABLE `groups` (
   `id` int(11) NOT NULL,
   `name` varchar(32) NOT NULL,
@@ -449,6 +488,11 @@ CREATE TABLE `groups` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Tabel leegmaken voor invoegen `groups`
+--
+
+TRUNCATE TABLE `groups`;
+--
 -- Gegevens worden geëxporteerd voor tabel `groups`
 --
 
@@ -463,11 +507,17 @@ INSERT INTO `groups` (`id`, `name`, `parent_id`, `comment`, `perms_system`, `per
 -- Tabelstructuur voor tabel `internal`
 --
 
+DROP TABLE IF EXISTS `internal`;
 CREATE TABLE `internal` (
   `keyName` char(30) CHARACTER SET ascii NOT NULL,
   `keyValue` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `internal`
+--
+
+TRUNCATE TABLE `internal`;
 --
 -- Gegevens worden geëxporteerd voor tabel `internal`
 --
@@ -481,6 +531,7 @@ INSERT INTO `internal` (`keyName`, `keyValue`) VALUES
 -- Tabelstructuur voor tabel `log`
 --
 
+DROP TABLE IF EXISTS `log`;
 CREATE TABLE `log` (
   `id` int(11) NOT NULL,
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -492,6 +543,11 @@ CREATE TABLE `log` (
   `extra` mediumtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Tabel leegmaken voor invoegen `log`
+--
+
+TRUNCATE TABLE `log`;
 --
 -- Gegevens worden geëxporteerd voor tabel `log`
 --
@@ -1955,6 +2011,7 @@ INSERT INTO `log` (`id`, `datetime`, `id_user`, `level`, `type`, `target_id`, `t
 -- Tabelstructuur voor tabel `manufacturers`
 --
 
+DROP TABLE IF EXISTS `manufacturers`;
 CREATE TABLE `manufacturers` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -1970,6 +2027,11 @@ CREATE TABLE `manufacturers` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `manufacturers`
+--
+
+TRUNCATE TABLE `manufacturers`;
 --
 -- Gegevens worden geëxporteerd voor tabel `manufacturers`
 --
@@ -2005,6 +2067,7 @@ INSERT INTO `manufacturers` (`id`, `name`, `parent_id`, `address`, `phone_number
 -- Tabelstructuur voor tabel `orderdetails`
 --
 
+DROP TABLE IF EXISTS `orderdetails`;
 CREATE TABLE `orderdetails` (
   `id` int(11) NOT NULL,
   `part_id` int(11) NOT NULL,
@@ -2015,6 +2078,11 @@ CREATE TABLE `orderdetails` (
   `datetime_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `orderdetails`
+--
+
+TRUNCATE TABLE `orderdetails`;
 --
 -- Gegevens worden geëxporteerd voor tabel `orderdetails`
 --
@@ -2041,6 +2109,7 @@ INSERT INTO `orderdetails` (`id`, `part_id`, `id_supplier`, `supplierpartnr`, `o
 -- Tabelstructuur voor tabel `parts`
 --
 
+DROP TABLE IF EXISTS `parts`;
 CREATE TABLE `parts` (
   `id` int(11) NOT NULL,
   `id_category` int(11) NOT NULL DEFAULT '0',
@@ -2063,6 +2132,11 @@ CREATE TABLE `parts` (
   `favorite` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `parts`
+--
+
+TRUNCATE TABLE `parts`;
 --
 -- Gegevens worden geëxporteerd voor tabel `parts`
 --
@@ -2339,6 +2413,7 @@ INSERT INTO `parts` (`id`, `id_category`, `name`, `description`, `instock`, `min
 -- Tabelstructuur voor tabel `pricedetails`
 --
 
+DROP TABLE IF EXISTS `pricedetails`;
 CREATE TABLE `pricedetails` (
   `id` int(11) NOT NULL,
   `orderdetails_id` int(11) NOT NULL,
@@ -2349,6 +2424,11 @@ CREATE TABLE `pricedetails` (
   `last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `pricedetails`
+--
+
+TRUNCATE TABLE `pricedetails`;
 --
 -- Gegevens worden geëxporteerd voor tabel `pricedetails`
 --
@@ -2366,6 +2446,7 @@ INSERT INTO `pricedetails` (`id`, `orderdetails_id`, `price`, `price_related_qua
 -- Tabelstructuur voor tabel `storelocations`
 --
 
+DROP TABLE IF EXISTS `storelocations`;
 CREATE TABLE `storelocations` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -2376,6 +2457,11 @@ CREATE TABLE `storelocations` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
+--
+-- Tabel leegmaken voor invoegen `storelocations`
+--
+
+TRUNCATE TABLE `storelocations`;
 --
 -- Gegevens worden geëxporteerd voor tabel `storelocations`
 --
@@ -2409,6 +2495,7 @@ INSERT INTO `storelocations` (`id`, `name`, `parent_id`, `is_full`, `datetime_ad
 -- Tabelstructuur voor tabel `suppliers`
 --
 
+DROP TABLE IF EXISTS `suppliers`;
 CREATE TABLE `suppliers` (
   `id` int(11) NOT NULL,
   `name` tinytext COLLATE utf8_unicode_ci NOT NULL,
@@ -2425,6 +2512,11 @@ CREATE TABLE `suppliers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
+-- Tabel leegmaken voor invoegen `suppliers`
+--
+
+TRUNCATE TABLE `suppliers`;
+--
 -- Gegevens worden geëxporteerd voor tabel `suppliers`
 --
 
@@ -2438,6 +2530,7 @@ INSERT INTO `suppliers` (`id`, `name`, `parent_id`, `address`, `phone_number`, `
 -- Tabelstructuur voor tabel `users`
 --
 
+DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `name` varchar(32) NOT NULL,
@@ -2488,6 +2581,11 @@ CREATE TABLE `users` (
   `last_modified` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Tabel leegmaken voor invoegen `users`
+--
+
+TRUNCATE TABLE `users`;
 --
 -- Gegevens worden geëxporteerd voor tabel `users`
 --
