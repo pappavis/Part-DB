@@ -1,10 +1,26 @@
-### Electronic parts database
+# Electronic parts database
 This is my parts database. <br>
 
-### Installation
-Download https://github.com/Part-DB/Part-DB <br>
-Import the partsdb.sql file into your MySQL instance.<br>
-<br>
+# Installatie
+Je kunt Part-DB middels deze semi-automatisch laten installeren.
+
+## Voorvereisten
+* Apache Webserver geïnstalleerd op locatie <i>/var/www/html</i>
+* Mariadb-server is geïnstaleerd en een wachtwoord is ingesteld met <i>mysql_secureinstallation</i>
+
+## Stappenplan
+Volg deze stappen om te installeren.
+
+1. Login op Linux omgeving.
+2. Start een command line omgeving.
+
+```console
+pi@raspberrypi:~$ wget https://raw.githubusercontent.com/pappavis/thescript/master/installPartDB.sh
+pi@raspberrypi:~$ sudo apt update -y
+pi@raspberrypi:~$ bash ./installPartDB.sh
+```
+Aan het eind moet je de mysql login gebruiken om de .sql voorbeeld te uploaden.
+
 
 ## screenshot
 Mijn  op <a href="http://62.59.57.118/support/part-db/">lokale instantie</a> op eigen Ubuntu servertje.<br>
